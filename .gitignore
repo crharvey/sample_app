@@ -15,3 +15,7 @@
 /log/*
 !/log/.keep
 /tmp
+
+# per tutorial when using Guard
+# Ignore Spring files.
+/spring/*.pid
