@@ -6,6 +6,9 @@ gem 'rails', '4.2.4'
 
 # Added bootstrap per tutorial
 gem 'bootstrap-sass', '3.2.0.0'
+# Added bcrypt for users password_digest
+gem 'bcrypt', '3.1.7'
+
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -46,6 +49,7 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   # moved here per tutorial
+  # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
 end
 # Add per tutorial sample_app
