@@ -10,6 +10,11 @@ gem 'bootstrap-sass', '3.2.0.0'
 gem 'bcrypt', '3.1.7'
 # Added faker for gnerating sample users
 gem 'faker', '1.4.2'
+# Listing 11.55 images
+gem 'carrierwave',             '0.10.0'
+gem 'mini_magick',             '3.8.0'
+gem 'fog',                     '1.26.0'
+
 # Listing 9.40 Pagination
 gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'

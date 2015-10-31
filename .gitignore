@@ -19,3 +19,6 @@
 # per tutorial when using Guard
 # Ignore Spring files.
 /spring/*.pid
+
+# Ignore uploaded test images.
+/public/uploads
